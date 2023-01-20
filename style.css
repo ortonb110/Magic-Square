@@ -1,0 +1,16 @@
+body {
+  height: 100vh;
+  display: grid;
+  place-content: center;
+  background-color: #2A275C;
+}
+body .container {
+  perspective: 40px;
+}
+body .container .card {
+  width: 450px;
+  height: 450px;
+  background-color: #fff;
+  border-radius: 5px;
+  transition: transform 0.5s;
+}/*# sourceMappingURL=style.css.map */
